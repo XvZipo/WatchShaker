@@ -35,7 +35,7 @@ public class WatchShaker : ObservableObject
         self.sensibility = to
         self.lastShakeDate = Date()
         self.motionManager = CMMotionManager()
-        super.init()
+   
         self.start()
     }
     
